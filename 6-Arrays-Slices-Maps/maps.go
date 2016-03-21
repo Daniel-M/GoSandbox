@@ -34,6 +34,11 @@ func main(){
 	fmt.Println(mapstring)
 	fmt.Println("You can access single elements like",mapstring["klm"])
 
+	fmt.Println("You can delete elements. I'll delete the element under key \"klm\"")
+	delete(mapstring,"klm")
+
+	fmt.Println(mapstring)
+
 	fmt.Printf("Size of empty %T is %v bytes\n",mapint,unsafe.Sizeof(mapint))
 	fmt.Printf("Size of empty %T is %v bytes\n",mapstring,unsafe.Sizeof(mapstring))
 }
