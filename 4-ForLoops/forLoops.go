@@ -10,6 +10,7 @@ func main(){
 	fmt.Scanf("%d",&fNumber)
 
 	// loop variable created with automatic type detection
+	// much like a regular C/C++ loop
 	for i := 0; i < fNumber; i++ {
 		fmt.Println(i)
 	}
@@ -19,6 +20,7 @@ func main(){
 	var i int
 
 	// loop variable created prior for loop
+	// much like a regular C/C++ loop
 	for i=0; i<fNumber;i++{
 		fmt.Println(i)
 	}
@@ -29,6 +31,7 @@ func main(){
 
 	// for executes as long as the boolean expression evaluates to true.
 	// Iteration variable is iterated inside the loop cycle.
+	// This is useful to create a while loop
 	for  i<fNumber {
 		fmt.Println(i)
 		i++
